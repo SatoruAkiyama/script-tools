@@ -1,4 +1,8 @@
 // node extract-json-value.js .\personal-website\profile\de.json  ./profile-de-val.tsv
+// node extract-json-value.js .\personal-website\job-experience\de.json  ./job-exp-de-val.tsv
+// node extract-json-value.js .\personal-website\contact\de.json  ./contact-de-val.tsv
+// node extract-json-value.js .\personal-website\comments\de.json  ./comments-de-val.tsv
+
 const fs = require('fs');
 
 const inputPath = process.argv[2];

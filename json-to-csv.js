@@ -1,4 +1,7 @@
 // node json-to-csv.js .\personal-website\profile\en.json  ./profile-en.tsv
+// node json-to-csv.js .\personal-website\job-experience\en.json  ./job-exp-en.tsv
+// node json-to-csv.js .\personal-website\contact\en.json  ./contact-en.tsv
+// node json-to-csv.js .\personal-website\comments\en.json  ./comments-en.tsv
 
 const fs = require('fs');
 
